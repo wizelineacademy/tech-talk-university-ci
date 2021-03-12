@@ -1,84 +1,63 @@
 # CI/CD Demo
 
-## Requirements
+## Requisitos
 
-The following are the requirements you need to proceed with this demo, from point 1 to 5 is explained below. 
-For point 6, please go to the official documentation if you do not have already an IDE installed. 
-Enjoy :)
+En esta sección encontrarás las herramientas que necesitarás para este demo, los requisitos del 1 al 4 se explican en sus respectivas secciones. Para el requisito 5, eres libre de elegir el IDE de tu preferencia, algunas páginas oficiales las encontrarás en los links.
+Esperamos te divieras :D
 
-1. [DockerHub account](#DockerHub-account)
-2. [Github account](#Github-account)
-3. [Heroku account](#Heroku-account)
-4. [Git installed](#Git-installation)
-5. [Docker installed](#Docker-installation)
-6. Javascript IDE installed ([Visual Studio Code Editor](https://code.visualstudio.com/download), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/3))
+1. [Cuenta en Github](#Cuenta-en-Github)
+2. [Cuenta en Heroku](#Cuenta-en-Heroku)
+3. [Git](#Instalar-Git)
+4. [Docker](#Instalar-Docker)
+5. Javascript IDE instalado ([Visual Studio Code Editor](https://code.visualstudio.com/download), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/3))
 
-### DockerHub account
+### Cuenta en Github
 
-1. Go to [oficial page](https://hub.docker.com/)
-2. Fill the form, for example:
-
-![](./images/dh_001.png)
-
-3. Select free plan
-
-![](./images/dh_002.png)
-
-4. You'll receive a confirmation message to your mail. Please verify your email
-
-![](./images/dh_003.png)
-
-And that's it, now you have your **DockerHub account** :D
-
-![](./images/dh_004.png)
-
-### Github account
-
-1. Go to [oficial page](https://github.com/)
-2. Click on **Sign Up**
+1. Ve a la [página oficial](https://github.com/)
+2. Da click en **inscrbirse** (**Sign Up**)
 
 ![](./images/gh_001.png)
 
-3. Fill the form
+3. Llena el formato con tus datos
 
 ![](./images/gh_002.png)
 
-4. Customize your profile (below is just an example)
+4. Personaliza tu perfil (La imágen es meramente un ejemplo)
 
 ![](./images/gh_003.png)
 
-5. You'll receive an email, please click on **verify email address**
+5. Recibirás un correo en tu bandeja de entrada, da click en **verificar email** (**verify email address**)
 
 ![](./images/gh_004.png)
 
-And that's it, now your **Github account** is ready to be used
+Y eso es todo, ahora tu **Cuenta de Github** está lista para usarse
 
-### Heroku account
+### Cuenta en Heroku
 
-1. Go to [oficial page](https://id.heroku.com/login)
-2. Click on **Sign Up**
+1. Ve a la [página oficial](https://id.heroku.com/login)
+2. Da click en **inscrbirse** (**Sign Up**)
 
 ![](./images/h_001.png)
 
-3. Fill the form
+3. Llena el formato con tus datos
 
 ![](./images/h_002.png)
 
-4. You'll receive an email, please click on **verify email address**
+4.  Recibirás un correo en tu bandeja de entrada, da click en **verificar email** (**verify email address**)
 
 ![](./images/h_003.png)
 
-And that's it, now your **Heroku account** is ready
+Y eso es todo, ahora tienes una **cuenta en Heroku** lista para usarse
 
-### Git installation
+### Instalar Git
 
-For this you can go to the [official page](https://git-scm.com/downloads), select your os and install it :D
+Para este paso necesitas ir a la [página oficia](https://git-scm.com/downloads), elige tu sistema operativo, y sigue las instrucciones para instalarlo
 
-if you're more a cli kind person, go to [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) page to install it ;)
+Si eres más de usar la consola, ve a [esta página](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) para instalarlo desde consola ;)
 
-### Docker installation
+### Instalar Docker
 
-According with your os, please go to the oficial pages to install Docker on your pc
+De acuerdo al sistema operativo de tu computadora, por favor ve a la página oficial para instalar docker
 
 - [Mac](https://docs.docker.com/docker-for-mac/install/)
 - [Windows](https://docs.docker.com/docker-for-windows/install/)
