@@ -16,9 +16,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      VERSION: ${GITHUB_SHA::8}
     steps:
+      - name: Declare some variables
+        id: vars
+        shell: bash
+        run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+      
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
@@ -27,4 +30,4 @@ jobs:
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           usedocker: true
           docker_build_args: |
-            VERSION
+            ${{ steps.vars.outputs.sha_short }}
