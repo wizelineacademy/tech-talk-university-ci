@@ -22,7 +22,7 @@ Esperamos te divieras :D
 
 ![](./images/gh_002.png)
 
-4. Personaliza tu perfil (La imágen es meramente un ejemplo)
+4. Personaliza tu perfil (la siguiente imagen es un ejemplo)
 
 ![](./images/gh_003.png)
 
