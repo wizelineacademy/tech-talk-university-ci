@@ -26,7 +26,7 @@ Esperamos te divieras :D
 
 ![](./images/gh_003.png)
 
-5. Recibirás un correo en tu bandeja de entrada, da click en **verificar email** (**verify email address**)
+5. Recibirás un correo para verificar tu cuenta, da click en **verificar email** (**verify email address**)
 
 ![](./images/gh_004.png)
 
