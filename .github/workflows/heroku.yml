@@ -35,5 +35,7 @@ jobs:
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           usedocker: true
           appdir: "app"
+          docker_build_args: |
+            VERSION
         env:
           VERSION: ${{ steps.vars.outputs.sha_short }}
