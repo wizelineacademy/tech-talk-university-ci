@@ -1,5 +1,9 @@
 # CI/CD Demo
 
+## ¿Cómo funciona?
+
+![](./images/i_001.png)
+
 ## Requisitos
 
 En esta sección encontrarás las herramientas que necesitarás para este demo, los requisitos del 1 al 4 se explican en sus respectivas secciones. Para el requisito 5, eres libre de elegir el IDE de tu preferencia, algunas páginas oficiales las encontrarás en los links.
@@ -26,7 +30,7 @@ Esperamos te divieras :D
 
 ![](./images/gh_003.png)
 
-5. Recibirás un correo en tu bandeja de entrada, da click en **verificar email** (**verify email address**)
+5. Recibirás un correo para verificar tu cuenta, da click en **verificar email** (**verify email address**)
 
 ![](./images/gh_004.png)
 
