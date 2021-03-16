@@ -35,5 +35,8 @@ jobs:
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           usedocker: true
           appdir: "app"
+          healthcheck: "https://${{secrets.HEROKU_APP_NAME}}.herokuapp.com/health"
+          checkstring: "OK"
+          rollbackonhealthcheckfailed: true
         env:
           HD_VERSION: ${{ steps.vars.outputs.sha_short }}
