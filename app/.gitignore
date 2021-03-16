@@ -1,4 +1,7 @@
 # Source : https://github.com/github/gitignore
+
+.DS_Store
+
 # Maven, Node, Python, Rails
 
 # Maven
