@@ -1,14 +1,17 @@
 const express = require('express');
-const path = require('path');
+var engine = require('ejs-locals');
 const app = express();
 const port = (process.env.PORT !== undefined) ? process.env.PORT : 3000;
 const version = (process.env.VERSION !== undefined) ? process.env.VERSION : 'local';
-const templates = path.resolve(__dirname, 'templates');
-const index = path.resolve(templates, 'index.html');
+
+// use the ejs template engine
+app.set('view engine', 'html');
+app.engine('html', engine);
 
 app.get('/', (req, res) => {
-    //res.send('Holiss :) version: ' + version)
-    res.sendFile(index);
+    res.render('index', {
+        version: version
+    });
 });
 
 app.get('/health', (req, res) => {
