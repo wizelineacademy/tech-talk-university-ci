@@ -1,6 +1,6 @@
 FROM node:10-alpine
 
-ARG VERSION=local
+ARG VERSION="local"
 
 WORKDIR /app
 COPY package.json .
