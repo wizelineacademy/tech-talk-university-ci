@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT;
 const version = process.env.VERSION;
-const templates = path.resolve(__dirname, './app/templates');
+const templates = path.resolve(__dirname, 'templates');
 const index = path.resolve(templates, 'index.html');
 
 app.get('/', (req, res) => {
