@@ -1,12 +1,13 @@
 const express = require('express');
-var engine = require('ejs-locals');
+const path = require('path');
+const engine = require('ejs-locals');
 const app = express();
 const port = (process.env.PORT !== undefined) ? process.env.PORT : 3000;
 const version = (process.env.VERSION !== undefined) ? process.env.VERSION : 'local';
 
 // Add images
-const images = path.resolve(__dirname, 'images');
-app.use(express.static(images));
+const static = path.resolve(__dirname, 'public');
+app.use(express.static(static));
 
 // use the ejs template engine
 app.set('view engine', 'html');

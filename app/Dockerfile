@@ -5,7 +5,7 @@ COPY package.json .
 RUN npm install
 
 COPY ./views ./views
-COPY ./images ./images
+COPY ./public ./public
 COPY index.js .
 
 CMD ["npm", "start"]
