@@ -4,6 +4,10 @@ const app = express();
 const port = (process.env.PORT !== undefined) ? process.env.PORT : 3000;
 const version = (process.env.VERSION !== undefined) ? process.env.VERSION : 'local';
 
+// Add images
+const images = path.resolve(__dirname, 'images');
+app.use(express.static(images));
+
 // use the ejs template engine
 app.set('view engine', 'html');
 app.engine('html', engine);
