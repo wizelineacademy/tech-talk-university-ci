@@ -2,7 +2,7 @@
 
 ## ¿Cómo funciona?
 
-![](./images/i_001.png)
+![](./images/001.png)
 
 ## Requisitos
 
