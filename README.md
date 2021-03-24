@@ -6,14 +6,10 @@
 
 ## Requisitos
 
-En esta sección encontrarás las herramientas que necesitarás para este demo, los requisitos del 1 al 4 se explican en sus respectivas secciones. Para el requisito 5, eres libre de elegir el IDE de tu preferencia, algunas páginas oficiales las encontrarás en los links.
-Esperamos te divieras :D
+Para realizar nuestro demo, necesitas crear solo un par de cuentas, en ésta sección encontrarás cómo hacerlo
 
 1. [Cuenta en Github](#Cuenta-en-Github)
 2. [Cuenta en Heroku](#Cuenta-en-Heroku)
-3. [Git](#Instalar-Git)
-4. [Docker](#Instalar-Docker)
-5. Javascript IDE instalado ([Visual Studio Code Editor](https://code.visualstudio.com/download), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/3))
 
 ### Cuenta en Github
 
@@ -53,16 +49,22 @@ Y eso es todo, ahora tu **Cuenta de Github** está lista para usarse
 
 Y eso es todo, ahora tienes una **cuenta en Heroku** lista para usarse
 
-### Instalar Git
+## Instrucciones
 
-Para este paso necesitas ir a la [página oficia](https://git-scm.com/downloads), elige tu sistema operativo, y sigue las instrucciones para instalarlo
+1. Hacer fork de este proyecto en tu propia cuenta, para ello tienes que dar clic en "Fork".
 
-Si eres más de usar la consola, ve a [esta página](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) para instalarlo desde consola ;)
+![](./images/h_001.png)
 
-### Instalar Docker
+2. Posteriormente seleccionas tu cuenta personal para hacer fork (este proceso puede tardar un par de segundos)
 
-De acuerdo al sistema operativo de tu computadora, por favor ve a la página oficial para instalar docker
+![](./images/i_002.png)
 
-- [Mac](https://docs.docker.com/docker-for-mac/install/)
-- [Windows](https://docs.docker.com/docker-for-windows/install/)
-- [Linux](https://docs.docker.com/engine/install/)
+3. Una vez que termine de hacer el fork de nuestro proyecto, tenemos que ir a la parte de **"Actions"** y tenemos que habilitar las acciones en nuestro repo, para ello damos clic en el botón verde, como en la siguiente imagen
+
+![](./images/i_003.png)
+
+4. Una vez que las habilitemos adecuadamente, nosotros seremos capaces de ver la siguiente pantalla
+
+![](./images/i_004.png)
+
+5.
